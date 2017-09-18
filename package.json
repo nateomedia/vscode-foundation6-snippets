@@ -1,0 +1,23 @@
+{
+    "name": "foundation6-snippets",
+    "displayName": "Foundation 6 Snippets",
+    "description": "Foundation 6.4 HTML & SCSS snippets for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "nateomedia",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            }
+        ]
+    }
+}

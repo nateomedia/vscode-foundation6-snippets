@@ -1,0 +1,763 @@
+{
+    "button": {
+        "prefix": "button",
+        "body": "<a class=\"button$1\" href=\"${2:#}\" >\n\t$3\n</a>$0"
+    },
+    "button-group": {
+        "prefix": "button-group",
+        "body":
+            "<div class=\"button-group$1\">\n\t<a class=\"button$2\" href=\"${3:#}\">$4</a>\n</div>$0"
+    },
+    "close-button": {
+        "prefix": "close-button",
+        "body":
+            "<button class=\"close-button$1\" arial-label=\"Close alert\" type=\"button\">\n\t<span aria-hidden=\"true\">${2:&times;}</span>\n</button>$0"
+    },
+    "callout": {
+        "prefix": "callout",
+        "body": "<div class=\"callout$1\">\n\t$2\n</div>$0"
+    },
+    "card": {
+        "prefix": "card",
+        "body":
+            "<div class=\"card$1\">\n\t<div class=\"card-divider$2\">\n\t\t$3\n\t</div>\n\t<img src=\"$4\" alt=\"$5\" />\n\t<div class=\"card-section$6\">\n\t\t$7\n\t</div>\n</div>$0"
+    },
+    "dropdown-hover": {
+        "prefix": "dropdown-hover",
+        "body":
+            "<button class=\"button\" type=\"button\" data-toggle=\"$1\">$2</button>\n<div class=\"dropdown-pane\" id=\"$1\" data-dropdown data-hover=\"true\" data-hover-pane=\"true\">\n\t$3\n</div>$0"
+    },
+    "dropdown-toggle": {
+        "prefix": "dropdown-toggle",
+        "body":
+            "<button class=\"button\" type=\"button\" data-toggle=\"$1\">$2</button>\n<div class=\"dropdown-pane\" id=\"$1\" data-dropdown data-auto-focus=\"true\">\n\t$3\n</div>$0"
+    },
+    "off-canvas-overlap": {
+        "prefix": "off-canvas-overlap",
+        "body":
+            "<button type=\"button\" class=\"button$1\" data-toggle=\"${2:offCanvasOverlap}\" aria-expanded=\"false\" aria-controls=\"$2\">${3:Open with Overlap}</button>\n<div class=\"off-canvas position-${4:left}\" id=\"$2\" data-off-canvas data-transition=\"overlap\">\n\t<button class=\"close-button\" aria-label=\"Close menu\" type=\"button\" data-close>\n\t\t<span aria-hidden=\"true\">&times;</span>\n\t</button>\n\t$5\n</div>$0"
+    },
+    "off-canvas-push": {
+        "prefix": "off-canvas-push",
+        "body":
+            "<button type=\"button\" class=\"button$1\" data-toggle=\"${2:offCanvasPush}\" aria-expanded=\"false\" aria-controls=\"$2\">${3:Open with Push}</button>\n<div class=\"off-canvas position-${4:left}\" id=\"$2\" data-off-canvas data-transition=\"push\">\n\t<button class=\"close-button\" aria-label=\"Close menu\" type=\"button\" data-close>\n\t\t<span aria-hidden=\"true\">&times;</span>\n\t</button>\n\t$5\n</div>$0"
+    },
+    "badge": {
+        "prefix": "badge",
+        "body":
+            "<${1:h3} aria-describedby=\"${2:badgeID}\">${3:Unread Messages}</${1:h3}>\n<span class=\"badge$4\" id=\"$2\">\n\t$5 <span class=\"show-for-sr\">${6:unread message}</span>\n</span>$0"
+    },
+    "responsive-embed": {
+        "prefix": "responsive-embed",
+        "body": "<div class=\"responsive-embed$1\">\n\t$2\n</div>$0"
+    },
+    "label-foundation": {
+        "prefix": "label-foundation",
+        "body":
+            "<${1:p} aria-describedby=\"${2:labelID}\">$3</${1:p}>\n<span class=\"label$4\" id=\"$2\">$5<span>$0"
+    },
+    "orbit-slider": {
+        "prefix": "orbit-slider",
+        "body":
+            "<div class=\"orbit$1\" role=\"region\" aria-label=\"$2\" data-orbit>\n\t<div class=\"orbit-wrapper$3\">\n\t\t<div class=\"orbit-controls$4\">\n\t\t\t<button class=\"orbit-previous$5\"><span class=\"show-for-sr\">${6:Previous Slide}</span>${7:&#9664;&#xFE0E;}</button>\n\t\t\t<button class=\"orbit-next$8\"><span class=\"show-for-sr\">${9:Next Slide}</span>${10:&#9654;&#xFE0E;}</button>\n\t\t</div>\n\t\t<ul class=\"orbit-container$11\">\n\t\t\t<li class=\"orbit-slide ${12:is-active}\">\n\t\t\t\t<figure class=\"orbit-figure$13\">\n\t\t\t\t\t<img class=\"orbit-image$14\" src=\"${15:#}\" alt=\"$16\" />\n\t\t\t\t\t<figcaption class=\"orbit-caption$17\">$18</figcaption>\n\t\t\t\t</figure>\n\t\t\t</li>\n\t\t\t<li class=\"orbit-slide$19\">\n\t\t\t\t<figure class=\"orbit-figure$20\">\n\t\t\t\t\t<img class=\"orbit-image$21\" src=\"${22:#}\" alt=\"$23\">\n\t\t\t\t\t<figcaption class=\"orbit-caption\">$24</figcaption>\n\t\t\t\t</figure>\n\t\t\t</li>\n\t\t</ul>\n\t</div>\n\t<nav class=\"orbit-bullets$25\">\n\t\t<button class=\"${26:is-active}\" data-slide=\"0\"><span class=\"show-for-sr\">${27:First slide details.}</span><span class=\"show-for-sr\">${28:Current Slide}</span></button>\n\t\t<button data-slide=\"1\"><span class=\"show-for-sr\">${29:Second slide details.}</span></button>\n\t</nav>\n</div>$0"
+    },
+    "data-interchange": {
+        "prefix": "data-interchange",
+        "body":
+            "<img data-interchange=\"[${1:#}, ${2:small}], [${3:#}, ${4:medium}], [${5:#}, ${6:large}]\" alt=\"$7\" />"
+    },
+    "data-slider": {
+        "prefix": "data-slider",
+        "body":
+            "<div class=\"slider$1\" data-slider data-initial-start=\"$2\" data-end=\"$3\">\n\t<span class=\"slider-handle\"  data-slider-handle role=\"slider\" tabindex=\"1\"></span>\n\t<span class=\"slider-fill\" data-slider-fill></span>\n\t<input type=\"hidden\">\n</div>$0"
+    },
+    "switch": {
+        "prefix": "switch",
+        "body":
+            "<div class=\"switch$1\">\n\t<input class=\"switch-input$2\" id=\"${3:exampleSwitch}\" type=\"${4:checkbox}\" name=\"$3\" />\n\t<label class=\"switch-paddle$5\" for=\"$3\">\n\t\t<span class=\"show-for-sr\">${6:Text}</span>\n\t</label>\n</div>$0"
+    },
+    "accordion": {
+        "prefix": "accordion",
+        "body":
+            "<ul class=\"accordion$1\" data-accordion>\n\t<li class=\"accordion-item ${2:is-active}\" data-accordion-item>\n\t\t<a href=\"${3:#}\" class=\"accordion-title$4\">$5</a>\n\t\t<div class=\"accordion-content$6\" data-tab-content>\n\t\t\t$7\n\t\t</div>\n\t</li>\n</ul>$0"
+    },
+    "responsive-accordion-tabs": {
+        "prefix": "responsive-accordion-tabs",
+        "body":
+            "<ul class=\"accordion$1\" data-responsive-accordion-tabs=\"accordion ${2:medium-tabs} ${3:large-accordion}\" id=\"${4:responsiveaccordiontabs}\" role=\"tablist\">\n\t<li class=\"accordion-item ${5:is-active}\" data-accordion-item>\n\t\t<a href=\"${6:#}\" class=\"accordion-title$7\" aria-controls=\"${8:first-accordion}\" role=\"tab\" id=\"$8-label\" aria-expanded=\"true\" aria-selected=\"true\">${9:Accordion Title}</a>\n\t\t<div class=\"accordion-content$10\" data-tab-content role=\"tabpanel\" aria-labelledby=\"$8-label\" aria-hidden=\"false\" id=\"$8\">\n\t\t\t$11\n\t\t</div>\n\t</li>\n\t<li class=\"accordion-item$12\" data-accordion-item>\n\t\t<a href=\"${13:#}\" class=\"accordion-title$14\" aria-controls=\"${15:second-accordion}\" role=\"tab\" id=\"$15-label\" aria-expanded=\"false\" aria-selected=\"false\">${16:Accordion 2}</a>\n\t\t<div class=\"accordion-content$17\" data-tab-content role=\"tabpanel\" aria-labelledby=\"$15-label\" aria-hidden=\"true\" id=\"$15\">\n\t\t\t$18\n\t\t</div>\n\t</li>\n</ul>$0"
+    },
+    "breadcrumbs": {
+        "prefix": "breadcrumbs",
+        "body":
+            "<nav aria-label=\"You are here:\" role=\"navigation\">\n\t<ul class=\"breadcrumbs$1\">\n\t\t<li><a href=\"${2:#}\">$3</a></li>\n\t\t<li><span class=\"show-for-sr\">Current: </span>$4</li>\n\t</ul>\n</nav>$0"
+    },
+    "pagination": {
+        "prefix": "pagination",
+        "body":
+            "<ul class=\"pagination$1\" role=\"navigation\" aria-label=\"Pagination\">\n\t<li class=\"pagination-previous ${2:disabled}\">${3:Previous} <span class=\"show-for-sr\">page</span></li>\n\t<li class=\"${4:current}\"><span class=\"show-for-sr\">You're on page</span> 1</li>\n\t<li><a href=\"#\" aria-label=\"Page 2\">2</a></li>\n\t<li class=\"ellipsis\" aria-hidden=\"true\"></li>\n\t<li><a href=\"#\" aria-label=\"Page 12\">12</a></li>\n\t<li><a href=\"#\" aria-label=\"Page 13\">13</a></li>\n\t<li class=\"pagination-next ${5:disabled}\"><a href=\"#\" aria-label=\"Next page\">${6:Next} <span class=\"show-for-sr\">page</span></a></li>\n</ul>$0"
+    },
+    "media-object": {
+        "prefix": "media-object",
+        "body":
+            "<div class=\"media-object$1\">\n\t<div class=\"media-object-section$2\">\n\t\t<div class=\"thumbnail$3\">\n\t\t\t<img src=\"${4:#}\" alt=\"$5\" />\n\t\t</div>\n\t</div>\n\t<div class=\"media-object-section main-section$6\">\n\t\t<${7:h4}>${8:Title}</$7}>\n\t\t<p>${9:Text}</p>\n\t</div>\n</div>$0"
+    },
+    "reveal": {
+        "prefix": "reveal",
+        "body":
+            "<div class=\"reveal$1\" id=\"${2:exampleModal1}\" data-reveal>\n\t$3\n\t<button class=\"close-button$4\" data-close aria-label=\"Close modal\" type=\"button\"><span aria-hidden=\"true\">&times;</span></button>\n</div>\n<button class=\"button$5\" data-open=\"$2\">${6:Click me for a modal}</button>$0"
+    },
+    "tabs": {
+        "prefix": "tabs",
+        "body":
+            "<ul class=\"tabs$1\" data-tabs=\"${2:tab-group}\" id=\"${3:example-tabs}\" role=\"tablist\">\n\t<li class=\"tabs-title ${4:is-active}\" role=\"presentation\"><a href=\"#${5:panel1}\" aria-selected=\"true\" role=\"tab\" aria-controls=\"$5\" id=\"$5-label\" tabindex=\"0\">${6:Tab Title}</a></li>\n\t<li class=\"tabs-title$7\" role=\"presentation\"><a href=\"#${8:panel2}\" role=\"tab\" aria-controls=\"$8\" aria-selected=\"false\" id=\"$8-label\" tabindex=\"-1\">${9:Tab 2}</a></li>\n</ul>\n<div class=\"tabs-content$10\" data-tabs-content=\"$3\">\n\t<div class=\"tabs-panel $4\" id=\"$5\" role=\"tabpanel\" aria-labelledby=\"$5-label\">\n\t\t$11\n\t</div>\n\t<div class=\"tabs-panel$12\" id=\"$8\" role=\"tabpanel\" aria-labelledby=\"$8-label\" aria-hidden=\"true\">\n\t\t$13\n\t</div>\n</div>$0"
+    },
+    "progressbar": {
+        "prefix": "progressbar",
+        "body":
+            "<div class=\"progress$1\" role=\"progressbar\" tabindex=\"0\" aria-valuenow=\"${2:25}\" aria-valuemin=\"${3:0}\" aria-valuemax=\"${4:100}\">\n\t<span class=\"progress-meter$5\">\n\t\t<p class=\"progress-meter-text\">${6:25%}</p></span>\n</div>$0"
+    },
+    "thumbnail": {
+        "prefix": "thumbnail",
+        "body": "<img class=\"thumbnail$1\" src=\"${2:#}\" alt=\"$3\" />$0"
+    },
+    "data-tooltip": {
+        "prefix": "data-tooltip",
+        "body":
+            "<span class=\"has-tip$1\" title=\"$2\" aria-haspopup=\"true\" tabindex=\"1\" data-tooltip data-disable-hover=\"false\">$3</span>$0"
+    },
+    "data-dropdown-menu": {
+        "prefix": "data-dropdown-menu",
+        "body":
+            "<ul class=\"dropdown menu$1\" data-dropdown-menu>\n\t<li><a href=\"#$2\">${3:Item}</a></li>\n\t<li><a href=\"#$4\">${5:Item}</a></li>\n</ul>"
+    },
+    "data-equalizer": {
+        "prefix": "data-equalizer",
+        "body":
+            "<${1:div} class=\"$2\" data-equalizer data-equalize-on=\"${3:medium}\">\n\t<${4:div} class=\"$5\" data-equalizer-watch>\n\t\t$6\n\t</$4>\n</$1>$0"
+    },
+    "title-bar": {
+        "prefix": "title-bar",
+        "body":
+            "<div class=\"title-bar$1\" data-responsive-toggle=\"${2:example-menu}\" data-hide-for=\"${3:medium}\">\n\t<button class=\"menu-icon\" type=\"button\" data-toggle=\"$2\"></button>\n\t<div class=\"title-bar-title\">${4:Menu}</div>\n</div>$0"
+    },
+    "data-close": {
+        "prefix": "data-close",
+        "body": "data-close"
+    },
+    "data-closable": {
+        "prefix": "data-closable",
+        "body": "data-closable"
+    },
+    "data-start": {
+        "prefix": "data-start",
+        "body": "data-start=\"${1:0}\"$0"
+    },
+    "data-end": {
+        "prefix": "data-end",
+        "body": "data-end=\"${1:100}\"$0"
+    },
+    "data-step": {
+        "prefix": "data-step",
+        "body": "data-step=\"${1:1}\"$0"
+    },
+    "data-initial-start": {
+        "prefix": "data-initial-start",
+        "body": "data-initial-start=\"${1:0}\"$0"
+    },
+    "data-initial-end": {
+        "prefix": "data-initial-end",
+        "body": "data-initial-end=\"${1:100}\"$0"
+    },
+    "data-binding": {
+        "prefix": "data-binding",
+        "body": "data-binding=\"true\"$0"
+    },
+    "data-click-select": {
+        "prefix": "data-click-select",
+        "body": "data-click-select=\"false\"$0"
+    },
+    "data-vertical": {
+        "prefix": "data-vertical",
+        "body": "data-vertical=\"true\"$0"
+    },
+    "data-draggable": {
+        "prefix": "data-draggable",
+        "body": "data-draggable=\"false\"$0"
+    },
+    "data-disabled": {
+        "prefix": "data-disabled",
+        "body": "data-disabled=\"true\"$0"
+    },
+    "data-double-sided": {
+        "prefix": "data-double-sided",
+        "body": "data-double-sided=\"true\"$0"
+    },
+    "data-decimal": {
+        "prefix": "data-decimal",
+        "body": "data-decimal=\"${1:2}\"$0"
+    },
+    "data-move-time": {
+        "prefix": "data-move-time",
+        "body": "data-move-time=\"${1:200}\"$0"
+    },
+    "data-disabled-class": {
+        "prefix": "data-disabled-class",
+        "body": "data-disabled-class"
+    },
+    "data-invert-vertical": {
+        "prefix": "data-invert-vertical",
+        "body": "data-invert-vertical=\"true\"$0"
+    },
+    "data-changed-delay": {
+        "prefix": "data-changed-delay",
+        "body": "data-changed-delay=\"${1:500}\"$0"
+    },
+    "data-non-linear-base": {
+        "prefix": "data-non-linear-base",
+        "body": "data-non-linear-base=\"${1:5}\"$0"
+    },
+    "data-position": {
+        "prefix": "data-position",
+        "body": "data-position=\"$1\"$0"
+    },
+    "data-position-class": {
+        "prefix": "data-position-class",
+        "body": "data-position-class=\"$1\"$0"
+    },
+    "data-position-value-function": {
+        "prefix": "data-position-value-function",
+        "body": "data-position-value-function=\"${1:linear}\"$0"
+    },
+    "data-disable-hover": {
+        "prefix": "data-disable-hover",
+        "body": "data-disable-hover=\"true\"$0"
+    },
+    "data-autoclose": {
+        "prefix": "data-autoclose",
+        "body": "data-autoclose=\"false\"$0"
+    },
+    "data-hover": {
+        "prefix": "data-hover",
+        "body": "data-hover=\"true\"$0"
+    },
+    "data-hover-pane": {
+        "prefix": "data-hover-pane",
+        "body": "data-hover-pane=\"true\"$0"
+    },
+    "data-hover-delay": {
+        "prefix": "data-hover-delay",
+        "body": "data-hover-delay=\"${1:50}\"$0"
+    },
+    "data-click-open": {
+        "prefix": "data-click-open",
+        "body": "data-click-open=\"true\"$0"
+    },
+    "data-closing-time": {
+        "prefix": "data-closing-time",
+        "body": "data-closing-time=\"${1:500}\"$0"
+    },
+    "data-alignment": {
+        "prefix": "data-alignment",
+        "body": "data-alignment=\"${1:auto}\"$0"
+    },
+    "data-close-on-click": {
+        "prefix": "data-close-on-click",
+        "body": "data-close-on-click=\"false\"$0"
+    },
+    "data-close-on-click-inside": {
+        "prefix": "data-close-on-click-inside",
+        "body": "data-close-on-click-inside=\"false\"$0"
+    },
+    "data-close-on-esc": {
+        "prefix": "data-close-on-esc",
+        "body": "data-close-on-esc=\"false\"$0"
+    },
+    "data-vertical-class": {
+        "prefix": "data-vertical-class",
+        "body": "data-vertical-class=\"${1:vertical}\"$0"
+    },
+    "data-right-class": {
+        "prefix": "data-right-class",
+        "body": "data-right-class=\"${1:align-right}\"$0"
+    },
+    "data-force-follow": {
+        "prefix": "data-force-follow",
+        "body": "data-force-follow=\"false\"$0"
+    },
+    "data-force-to": {
+        "prefix": "data-force-to",
+        "body": "data-force-to=\"$1\"$0"
+    },
+    "data-auto-apply-class": {
+        "prefix": "data-auto-apply-class",
+        "body": "data-auto-apply-class=\"false\"$0"
+    },
+    "data-auto-play": {
+        "prefix": "data-auto-play",
+        "body": "data-auto-play=\"false\"$0"
+    },
+    "data-back-button": {
+        "prefix": "data-back-button",
+        "body": "data-back-button=\"js-drilldown-back $1\"$0"
+    },
+    "data-back-button-position": {
+        "prefix": "data-back-button-position",
+        "body": "data-back-button-position=\"$1\"$0"
+    },
+    "data-wrap-on-keys": {
+        "prefix": "data-wrap-on-keys",
+        "body": "data-wrap-on-keys=\"false\"$0"
+    },
+    "data-wrapper": {
+        "prefix": "data-wrapper",
+        "body": "data-wrapper=\"is-drilldown $1\"$0"
+    },
+    "data-parent-link": {
+        "prefix": "data-parent-link",
+        "body": "data-parent-link=\"true\"$0"
+    },
+    "data-parent-class": {
+        "prefix": "data-parent-class",
+        "body": "data-parent-class=\"$1\"$0"
+    },
+    "data-close-on-click": {
+        "prefix": "data-close-on-click",
+        "body": "data-close-on-click=\"true\"$0"
+    },
+    "data-auto-height": {
+        "prefix": "data-auto-height",
+        "body": "data-auto-height=\"true\"$0"
+    },
+    "data-hide-for": {
+        "prefix": "data-hide-for",
+        "body": "data-hide-for=\"$1\"$0"
+    },
+    "data-animate": {
+        "prefix": "data-animate",
+        "body": "data-animate=\"true\"$0"
+    },
+    "data-animate-height": {
+        "prefix": "data-animate-height",
+        "body": "data-animate-height=\"true\"$0"
+    },
+    "data-scroll-top": {
+        "prefix": "data-scroll-top",
+        "body": "data-scroll-top=\"true\"$0"
+    },
+    "data-scroll-top-element": {
+        "prefix": "data-scroll-top-element",
+        "body": "data-scroll-top-element=\"$1\"$0"
+    },
+    "data-scroll-top-offset": {
+        "prefix": "data-scroll-top-offset",
+        "body": "data-scroll-top-offset=\"$1\"$0"
+    },
+    "data-animation-duration": {
+        "prefix": "data-animation-duration",
+        "body": "data-animation-duration=\"${1:500}\"$0"
+    },
+    "data-animation-easing": {
+        "prefix": "data-animation-easing",
+        "body": "data-animation-easing=\"${1:linear}\"$0"
+    },
+    "data-animation-in": {
+        "prefix": "data-animation-in",
+        "body": "data-animation-in=\"$1\"$0"
+    },
+    "data-animation-out": {
+        "prefix": "data-animation-out",
+        "body": "data-animation-out=\"$1\"$0"
+    },
+    "data-slide-class": {
+        "prefix": "data-slide-class",
+        "body": "data-slide-class=\"$1\"$0"
+    },
+    "data-slide-speed": {
+        "prefix": "data-slide-speed",
+        "body": "data-slide-speed=\"${1:250}\"$0"
+    },
+    "data-submenu-toggle": {
+        "prefix": "data-submenu-toggle",
+        "body": "data-submenu-toggle$0"
+    },
+    "data-submenu-toggle-text": {
+        "prefix": "data-submenu-toggle-text",
+        "body": "data-submenu-toggle-text$0"
+    },
+    "data-multi-open": {
+        "prefix": "data-multi-open",
+        "body": "data-multi-open=\"false\"$0"
+    },
+    "data-multi-expand": {
+        "prefix": "data-multi-expand",
+        "body": "data-multi-expand=\"true\"$0"
+    },
+    "data-multiple-opened": {
+        "prefix": "data-multi-open",
+        "body": "data-multi-open=\"true\"$0"
+    },
+    "data-threshold": {
+        "prefix": "data-threshold",
+        "body": "data-threshold=\"${1:50}\"$0"
+    },
+    "data-active-class": {
+        "prefix": "data-active-class",
+        "body": "data-active-class=\"$1\"$0"
+    },
+    "data-deep-link": {
+        "prefix": "data-deep-link",
+        "body": "data-deep-link=\"true\"$0"
+    },
+    "data-deep-link-smudge": {
+        "prefix": "data-deep-link-smudge",
+        "body": "data-deep-link-smudge=\"true\"$0"
+    },
+    "data-deep-link-smudge-delay": {
+        "prefix": "data-deep-link-smudge-delay",
+        "body": "data-deep-link-smudge-delay=\"${1:300}\"$0"
+    },
+    "data-deep-linking": {
+        "prefix": "data-deep-linking",
+        "body": "data-deep-linking=\"true\"$0"
+    },
+    "data-offset": {
+        "prefix": "data-offset",
+        "body": "data-offset=\"${1:0}\"$0"
+    },
+    "data-allow-all-closed": {
+        "prefix": "data-allow-all-closed",
+        "body": "data-allow-all-closed=\"true\"$0"
+    },
+    "data-allow-html": {
+        "prefix": "data-allow-html",
+        "body": "data-allow-html=\"true\"$0"
+    },
+    "data-allow-overlap": {
+        "prefix": "data-allow-overlap",
+        "body": "data-allow-overlap=\"true\"$0"
+    },
+    "data-allow-bottom-overlap": {
+        "prefix": "data-allow-bottom-overlap",
+        "body": "data-allow-bottom-overlap=\"true\"$0"
+    },
+    "data-update-history": {
+        "prefix": "data-update-history",
+        "body": "data-update-history=\"true\"$0"
+    },
+    "data-trap-focus": {
+        "prefix": "data-trap-focus",
+        "body": "data-trap-focus=\"true\"$0"
+    },
+    "data-auto-focus": {
+        "prefix": "data-auto-focus",
+        "body": "data-auto-focus=\"false\"$0"
+    },
+    "data-content-overlay": {
+        "prefix": "data-content-overlay",
+        "body": "data-content-overlay=\"false\"$0"
+    },
+    "data-content-id": {
+        "prefix": "data-content-id",
+        "body": "data-content-id=\"$1\"$0"
+    },
+    "data-content-scroll": {
+        "prefix": "data-content-scroll",
+        "body": "data-content-scroll=\"false\"$0"
+    },
+    "data-nested": {
+        "prefix": "data-nested",
+        "body": "data-nested=\"$1\"$0"
+    },
+    "data-transition-time": {
+        "prefix": "data-transition-time",
+        "body": "data-transition-time=\"$1\"$0"
+    },
+    "data-transition": {
+        "prefix": "data-transition",
+        "body": "data-transition=\"slide\"$0"
+    },
+    "data-is-revealed": {
+        "prefix": "data-is-revealed",
+        "body": "data-is-revealed=\"true\"$0"
+    },
+    "data-reveal-on": {
+        "prefix": "data-reveal-on",
+        "body": "data-reveal-on=\"$1\"$0"
+    },
+    "data-reveal-class": {
+        "prefix": "data-reveal-class",
+        "body": "data-reveal-class=\"reveal-for-${1:medium}\"$0"
+    },
+    "data-show-delay": {
+        "prefix": "data-show-delay",
+        "body": "data-show-delay=\"${1:0}\"$0"
+    },
+    "data-hide-delay": {
+        "prefix": "data-hide-delay",
+        "body": "data-hide-delay=\"${1:0}\"$0"
+    },
+    "data-v-offset": {
+        "prefix": "data-v-offset",
+        "body": "data-v-offset=\"$1\"$0"
+    },
+    "data-h-offset": {
+        "prefix": "data-h-offset",
+        "body": "data-h-offset=\"$1\"$0"
+    },
+    "data-full-screen": {
+        "prefix": "data-full-screen",
+        "body": "data-full-screen=\"true\"$0"
+    },
+    "data-btm-offset-pct": {
+        "prefix": "data-btm-offset-pct",
+        "body": "data-btm-offset-pct=\"${1:10}\"$0"
+    },
+    "data-overlay": {
+        "prefix": "data-overlay",
+        "body": "data-overlay=\"false\"$0"
+    },
+    "data-reset-on-close": {
+        "prefix": "data-reset-on-close",
+        "body": "data-reset-on-close=\"true\"$0"
+    },
+    "data-append-to": {
+        "prefix": "data-append-to",
+        "body": "data-append-to=\"${1:body}\"$0"
+    },
+    "data-additional-overlay-classes": {
+        "prefix": "data-additional-overlay-classes",
+        "body": "data-additional-overlay-classes=\"$1\"$0"
+    },
+    "data-match-height": {
+        "prefix": "data-match-height",
+        "body": "data-match-height=\"true\"$0"
+    },
+    "data-active-collapse": {
+        "prefix": "data-active-collapse",
+        "body": "data-active-collapse=\"true\"$0"
+    },
+    "data-link-class": {
+        "prefix": "data-link-class",
+        "body": "data-link-class=\"$1\"$0"
+    },
+    "data-link-active-class": {
+        "prefix": "data-link-active-class",
+        "body": "data-link-active-class=\"$1\"$0"
+    },
+    "data-panel-class": {
+        "prefix": "data-panel-class",
+        "body": "data-panel-class=\"$1\"$0"
+    },
+    "data-panel-active-class": {
+        "prefix": "data-panel-active-class",
+        "body": "data-panel-active-class=\"$1\"$0"
+    },
+    "data-bullets": {
+        "prefix": "data-bullets",
+        "body": "data-bullets=\"false\"$0"
+    },
+    "data-nav-buttons": {
+        "prefix": "data-nav-buttons",
+        "body": "data-nav-buttons=\"false\"$0"
+    },
+    "data-anim-in-from-right": {
+        "prefix": "data-anim-in-from-right",
+        "body": "data-anim-in-from-right=\"$1\"$0"
+    },
+    "data-anim-out-to-right": {
+        "prefix": "data-anim-out-to-right",
+        "body": "data-anim-out-to-right=\"$1\"$0"
+    },
+    "data-anim-in-from-left": {
+        "prefix": "data-anim-in-from-left",
+        "body": "data-anim-in-from-left=\"$1\"$0"
+    },
+    "data-anim-out-to-left": {
+        "prefix": "data-anim-out-to-left",
+        "body": "data-anim-out-to-left=\"$1\"$0"
+    },
+    "data-timer-delay": {
+        "prefix": "data-timer-delay",
+        "body": "data-timer-delay=\"${1:5000}\"$0"
+    },
+    "data-infinite-wrap": {
+        "prefix": "data-infinite-wrap",
+        "body": "data-infinite-wrap=\"false\"$0"
+    },
+    "data-swipe": {
+        "prefix": "data-swipe",
+        "body": "data-swipe=\"false\"$0"
+    },
+    "data-pause-on-hover": {
+        "prefix": "data-pause-on-hover",
+        "body": "data-pause-on-hover=\"false\"$0"
+    },
+    "data-accessible": {
+        "prefix": "data-accessible",
+        "body": "data-accessible=\"false\"$0"
+    },
+    "data-container-class": {
+        "prefix": "data-container-class",
+        "body": "data-container-class=\"$1\"$0"
+    },
+    "data-box-of-bullets": {
+        "prefix": "data-box-of-bullets",
+        "body": "data-box-of-bullets=\"$1\"$0"
+    },
+    "data-next-class": {
+        "prefix": "data-next-class",
+        "body": "data-next-class=\"$1\"$0"
+    },
+    "data-use-m-u-i": {
+        "prefix": "data-use-m-u-i",
+        "body": "data-use-m-u-i=\"false\"$0"
+    },
+    "data-fade-in-duration": {
+        "prefix": "data-fade-in-duration",
+        "body": "data-fade-in-duration=\"${1:150}\"$0"
+    },
+    "data-fade-out-duration": {
+        "prefix": "data-fade-out-duration",
+        "body": "data-fade-out-duration=\"${1:150}\"$0"
+    },
+    "data-template": {
+        "prefix": "data-template",
+        "body": "data-template=\"$1\"$0"
+    },
+    "data-template-classes": {
+        "prefix": "data-template-classes",
+        "body": "data-template-classes=\"$1\"$0"
+    },
+    "data-tooltip-class": {
+        "prefix": "data-tooltip-class",
+        "body": "data-tooltip-class=\"$1\"$0"
+    },
+    "data-tooltip-height": {
+        "prefix": "data-tooltip-height",
+        "body": "data-tooltip-height=\"${1:14}\"$0"
+    },
+    "data-tooltip-width": {
+        "prefix": "data-tooltip-width",
+        "body": "data-tooltip-width=\"${1:12}\"$0"
+    },
+    "data-trigger-class": {
+        "prefix": "data-trigger-class",
+        "body": "data-trigger-class=\"$1\"$0"
+    },
+    "data-show-on": {
+        "prefix": "data-show-on",
+        "body": "data-show-on=\"$1\"$0"
+    },
+    "data-tip-text": {
+        "prefix": "data-tip-text",
+        "body": "data-tip-text=\"$1\"$0"
+    },
+    "data-equalize-on": {
+        "prefix": "data-equalize-on",
+        "body": "data-equalize-on=\"$1\"$0"
+    },
+    "data-equalize-on-stack": {
+        "prefix": "data-equalize-on-stack",
+        "body": "data-equalize-on-stack=\"true\"$0"
+    },
+    "data-equalize-by-row": {
+        "prefix": "data-equalize-by-row",
+        "body": "data-equalize-by-row=\"true\"$0"
+    },
+    "data-rules": {
+        "prefix": "data-rules",
+        "body": "data-rules=\"[$1]\"$0"
+    },
+    "data-smoooth-scroll": {
+        "prefix": "data-smoooth-scroll",
+        "body": "data-smoooth-scroll$0"
+    },
+    "data-toggler": {
+        "prefix": "data-toggler",
+        "body": "data-toggler=\"$1\"$0"
+    },
+    "data-toggle-focus": {
+        "prefix": "data-toggle-focus",
+        "body": "data-toggle-focus=\"$1\"$0"
+    },
+    "data-validate-on": {
+        "prefix": "data-validate-on",
+        "body": "data-validate-on=\"$1\"$0"
+    },
+    "data-validate-on-blur": {
+        "prefix": "data-validate-on-blur",
+        "body": "data-validate-on-blur=\"true\"$0"
+    },
+    "data-validators": {
+        "prefix": "data-validators",
+        "body": "data-validators$0"
+    },
+    "data-label-error-class": {
+        "prefix": "data-label-error-class",
+        "body": "data-label-error-class=\"$1\"$0"
+    },
+    "data-input-error-class": {
+        "prefix": "data-input-error-class",
+        "body": "data-input-error-class=\"$1\"$0"
+    },
+    "data-form-error-selector": {
+        "prefix": "data-form-error-selector",
+        "body": "data-form-error-selector=\"$1\"$0"
+    },
+    "data-form-error-class": {
+        "prefix": "data-form-error-class",
+        "body": "data-form-error-class=\"$1\"$0"
+    },
+    "data-live-validate": {
+        "prefix": "data-live-validate",
+        "body": "data-live-validate=\"true\"$0"
+    },
+    "data-magellan": {
+        "prefix": "data-magellan",
+        "body": "data-magellan$0"
+    },
+    "data-magellan-target": {
+        "prefix": "data-magellan-target",
+        "body": "data-magellan-target=\"$1\"$0"
+    },
+    "data-sticky": {
+        "prefix": "data-sticky",
+        "body": "data-sticky$0"
+    },
+    "data-sticky-container": {
+        "prefix": "data-sticky-container",
+        "body": "data-sticky-container$0"
+    },
+    "data-sticky-on": {
+        "prefix": "data-sticky-on",
+        "body": "data-sticky-on=\"$1\"$0"
+    },
+    "data-margin-top": {
+        "prefix": "data-margin-top",
+        "body": "data-margin-top$0"
+    },
+    "data-anchor": {
+        "prefix": "data-anchor",
+        "body": "data-anchor=\"$1\"$0"
+    },
+    "data-responsive-menu": {
+        "prefix": "data-responsive-menu",
+        "body": "data-responsive-menu=\"$1\"$0"
+    },
+    "data-responsive-toggle": {
+        "prefix": "data-responsive-toggle",
+        "body": "data-responsive-toggle=\"$1\"$0"
+    },
+    "data-responsive-menu": {
+        "prefix": "data-responsive-menu",
+        "body": "data-responsive-menu=\"$1\"$0"
+    },
+    "data-drilldown": {
+        "prefix": "data-drilldown",
+        "body": "data-drilldown$0"
+    },
+    "": {
+        "prefix": "",
+        "body": ""
+    }
+}
