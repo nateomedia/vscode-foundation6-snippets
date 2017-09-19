@@ -1,65 +1,38 @@
-# foundation6-snippets README
+# Foundation 6.4 Snippets
 
-This is the README for your extension "foundation6-snippets". After writing up a brief description, we recommend including the following sections.
+Zurb [Foundation 6 for sites](http://foundation.zurb.com/sites.html) HTML & SCSS snippets for Visual Studio Code
+
+[GitHub repository](https://github.com/nateomedia/vscode-foundation6-snippets)
+
+## Install
+
+Via Quick Open:
+
+1. [Download](https://code.visualstudio.com/download), install and open VS Code
+2. Press `cmd+p` to open the Quick Open dialog
+3. Type `ext install foundation6-snippets`
+4. Click the *Install* button, then the *Enable* button
+
+Via the Extensions tab:
+
+1. Click the extensions tab or press `cmd+shift+x`
+2. Search for *foundation 6 snippets*
+3. Click the *Install* button, then the *Enable* button
+
+Via the command line:
+
+1. Open a command-line prompt
+2. Run `code --install-extension nateomedia.vscode-foundation6-snippets`
+
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This extension provides code completion & snippets for Foundation 6 for Sites SASS mixins and HTML navigation, containers and media snippets. It also contains many 'data-' js plugin options.
 
-For example if there is an image subfolder under your extension project workspace:
+## Limitations
 
-\!\[feature X\]\(images/feature-x.png\)
+I wrote this extension primary for myself, so it focuses on semantic mark-up and relies on the xy-grid and flexbox. Older grids are missing, as are many non-semantic html classes. I also did not include SASS variables. I welcome pull requests to fill-in any missing snippets. Thanks!
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Contribute
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+For any bugs and feature requests please open an issue. For code contributions please create a pull request. Enjoy!

@@ -1,11 +1,20 @@
 {
-    "name": "foundation6-snippets",
+    "name": "vscode-foundation6-snippets",
     "displayName": "Foundation 6 Snippets",
     "description": "Foundation 6.4 HTML & SCSS snippets for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "nateomedia",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.16.0"
+    },
+    "bugs": {
+        "url":
+            "https://github.com/nateomedia/vscode-foundation6-snippets/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nateomedia/vscode-foundation6-snippets"
     },
     "categories": ["Snippets"],
     "contributes": {
