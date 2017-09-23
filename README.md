@@ -31,7 +31,7 @@ This extension provides code completion & snippets for Foundation 6 for Sites SA
 
 ## Limitations
 
-I wrote this extension primary for myself, so it focuses on semantic mark-up and relies on the xy-grid and flexbox. Older grids are missing, as are many non-semantic html classes. I also did not include SASS variables. I welcome pull requests to fill-in any missing snippets. Thanks!
+I developed this extension primary for myself, so it focuses on semantic mark-up and relies on the xy-grid and flexbox. Older grids are missing, as are many non-semantic html classes. I also did not include SASS variables. I welcome pull requests to fill-in anything that's missing. Thanks!
 
 ## Contribute
 
