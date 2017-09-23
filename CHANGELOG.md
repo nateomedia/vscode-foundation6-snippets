@@ -1,7 +1,3 @@
-# Change Log
-All notable changes to the "foundation6-snippets" extension will be documented in this file.
+Using [GitHub's Releases feature](https://github.com/blog/1547-release-your-software) for changelogs.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+See [the Releases section of our GitHub project](https://github.com/mrmlnc/vscode-scss/releases) for changelogs for each release version of this plugin.
